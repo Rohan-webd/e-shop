@@ -15,7 +15,6 @@ import {
 
 const OrderScreen = () => {
   const { id: orderId } = useParams();
-
   const {
     data: order,
     refetch,
